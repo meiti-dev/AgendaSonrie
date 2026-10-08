@@ -1,0 +1,11 @@
+{
+  "appId": "dev.meiti.export.agendasonrie_muupop7s",
+  "appName": "AgendaSonrie",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "webContentsDebuggingEnabled": false
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "requiere_login": true,
+  "tema": {
+    "colorPrimario": "#0F172A",
+    "colorSecundario": "#64748B",
+    "fondo": "#FFFFFF",
+    "superficie": "#F8FAFC",
+    "texto": "#0F172A"
+  },
+  "navegacion": {
+    "tipo": "tabs_inferior"
+  },
+  "paginas": [
+    {
+      "id": "hoy",
+      "titulo": "Hoy",
+      "icono": "fa-sun",
+      "componentes": [
+        {
+          "tipo": "AgendaSonrie_muupop7s__CS_ResumenHoy",
+          "col_span": 12
+        },
+        {
+          "tipo": "AgendaSonrie_muupop7s__CS_TimelineSalas",
+          "col_span": 12
+        },
+        {
+          "tipo": "AgendaSonrie_muupop7s__CS_CatalogosSemilla",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Muestra los turnos del día en una línea de tiempo por sala, destacando el próximo turno y los horarios libres"
+    },
+    {
+      "id": "calendario",
+      "titulo": "Calendario",
+      "icono": "fa-calendar-days",
+      "componentes": [
+        {
+          "tipo": "AgendaSonrie_muupop7s__CS_CalendarioTurnos",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Vista interactiva por día, semana y mes con colores por profesional y acceso rápido para crear turnos"
+    },
+    {
+      "id": "turnos",
+      "titulo": "Gestión",
+      "icono": "fa-clipboard-list",
+      "componentes": [
+        {
+          "tipo": "AgendaSonrie_muupop7s__CS_GestorTurnos",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Formulario y detalle de cada turno con validación de horarios ocupados para salas y profesionales"
+    },
+    {
+      "id": "profesionales",
+      "titulo": "Doctores",
+      "icono": "fa-user-doctor",
+      "componentes": [
+        {
+          "tipo": "AgendaSonrie_muupop7s__CS_GestorProfesionales",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Directorio de odontólogos con asignación de color, especialidad, días y horarios de atención"
+    },
+    {
+      "id": "pacientes",
+      "titulo": "Pacientes",
+      "icono": "fa-users",
+      "componentes": [
+        {
+          "tipo": "AgendaSonrie_muupop7s__CS_GestorPacientes",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Registro y búsqueda de pacientes con datos de contacto e historial completo de turnos"
+    },
+    {
+      "id": "configuracion",
+      "titulo": "Ajustes",
+      "icono": "fa-gear",
+      "rol": "admin",
+      "componentes": [
+        {
+          "tipo": "AgendaSonrie_muupop7s__Configuracion",
+          "col_span": 12
+        },
+        {
+          "tipo": "AgendaSonrie_muupop7s__PanelRolesPermisos",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Panel de turnos de mañana pendientes de confirmación con acciones para confirmar o cancelar"
+    },
+    {
+      "id": "recordatorios",
+      "titulo": "Recordatorios",
+      "icono": "fa-bell",
+      "componentes": [
+        {
+          "tipo": "AgendaSonrie_muupop7s__CS_PanelRecordatorios",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Panel de turnos de mañana pendientes de confirmación con acciones para confirmar o cancelar"
+    },
+    {
+      "id": "catalogos",
+      "titulo": "Catálogos",
+      "icono": "fa-layer-group",
+      "rol": "admin",
+      "componentes": [
+        {
+          "tipo": "AgendaSonrie_muupop7s__CS_GestorCatalogos",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Administración de salas, tratamientos con duración, especialidades y estados de turno para alimentar los selectores de la app"
+    }
+  ],
+  "estilo_layout": "app",
+  "es_industrial": false,
+  "estilo_visual": "calido"
+}
