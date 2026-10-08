@@ -1,6 +1,16 @@
 {
   "revisar": [
-    "src/fabrica/diccionario/**"
+    "server/moldes/AgendaSonrie_muupop7s__Configuracion.jsx",
+    "server/moldes/AgendaSonrie_muupop7s__PanelRolesPermisos.jsx",
+    "server/moldes/AgendaSonrie_muupop7s__CS_ResumenHoy.jsx",
+    "server/moldes/AgendaSonrie_muupop7s__CS_TimelineSalas.jsx",
+    "server/moldes/AgendaSonrie_muupop7s__CS_CalendarioTurnos.jsx",
+    "server/moldes/AgendaSonrie_muupop7s__CS_GestorTurnos.jsx",
+    "server/moldes/AgendaSonrie_muupop7s__CS_GestorProfesionales.jsx",
+    "server/moldes/AgendaSonrie_muupop7s__CS_GestorPacientes.jsx",
+    "server/moldes/AgendaSonrie_muupop7s__CS_CatalogosSemilla.jsx",
+    "server/moldes/AgendaSonrie_muupop7s__CS_PanelRecordatorios.jsx",
+    "server/moldes/AgendaSonrie_muupop7s__CS_GestorCatalogos.jsx"
   ],
   "vulnerabilidades_aceptadas": [
     {

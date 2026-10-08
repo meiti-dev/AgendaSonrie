@@ -1,10 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import { LIBRERIAS_PREMIUM } from '../core/libreriasPremium.js';
-
-const { Iconos, Animacion, Graficos } = LIBRERIAS_PREMIUM;
-
-// 🛡️ Ladrillo Forjado por IA y Aprobado por el Pentágono (MEITI)
-const AgendaSonrie_muupop7s__CS_PanelRecordatorios = ({ datos, tema, UI, MEITI }) => {
+/* global React, useState, useEffect, useRef, useMemo, useCallback, datos, tema, UI, MEITI, LIBRERIAS_PREMIUM, Iconos, Animacion, Graficos, render */
+// Molde de MEITI: este archivo es el código que corre la app (server/server.js lo carga al arrancar; si lo cambias, reinicia el backend).
+({ datos, tema, UI, MEITI }) => {
   const eco = MEITI.obtenerEcosistemaActual();
   
   const manana = new Date();
@@ -289,6 +285,4 @@ const AgendaSonrie_muupop7s__CS_PanelRecordatorios = ({ datos, tema, UI, MEITI }
       </Animacion.motion.div>
     </div>
   );
-};
-
-export default AgendaSonrie_muupop7s__CS_PanelRecordatorios;
+}
